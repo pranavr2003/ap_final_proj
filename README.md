@@ -117,4 +117,4 @@ npm run dev
   ]
 }
 ```
-- This will return a `projectID` which you can use to upload documents and extract information. 
+- This will return a `projectID` which you can use to upload documents and extract information. The `projectId` needs to be replaced in the same variable name at `frontend/src/app/extract/page.tsx`. It is unique per project. 
