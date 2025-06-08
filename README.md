@@ -1,4 +1,4 @@
-# Doc Info Extraction
+# Doc Info Extraction for Medical Reports
 
 This is a Document info extraction pipeline. The idea is to store the different schema with a unique ID. The Backend will take a "SchemaID" and the document (JPG, PNG, PDF) and extract the information from it. This information will be stored in a database. The Frontend will allow users to upload documents and view the extracted information. This project is built using FastAPI for the backend and NextJS for the frontend.
 
@@ -6,7 +6,7 @@ This extracts certain parameters for a given medical report and predicts if dial
 
 ---------------------------------------------------------------------------------------------------
 
-## [Demo](https://drive.google.com/file/d/1Ne0pWPFtf5iyXvgxjACvt45uMgTgPx07/view?usp=sharing)
+## [Here's a Demo of the project](https://drive.google.com/file/d/1Ne0pWPFtf5iyXvgxjACvt45uMgTgPx07/view?usp=sharing)
 
 ---------------------------------------------------------------------------------------------------
 
@@ -35,6 +35,10 @@ This extracts certain parameters for a given medical report and predicts if dial
 - The user needs to create an API key on Mistral and Groq to use the document extraction functionality.
 
 ## How to run the project locally
+
+```shell
+pip install -r requirements.txt
+```
 
 ### Running the Backend
 
@@ -68,7 +72,7 @@ npm run dev
 
 ```json
 {
-  "name": "Dialysis Proj Detection",
+  "name": "Dialysis Detection",
   "fields": [
     {
       "name": "serumCreatinine",
