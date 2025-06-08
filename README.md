@@ -38,6 +38,15 @@ This extracts certain parameters for a given medical report and predicts if dial
 
 ### Running the Backend
 
+Starting MongoDB (depending on the OS):
+
+```shell
+# Ubuntu/Linux/WSL
+sudo systemctl start mongod
+```
+
+Starting the FastAPI server:
+
 ```shell
 cd ./backend/
 uv sync
